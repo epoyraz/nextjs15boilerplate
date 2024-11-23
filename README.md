@@ -1,6 +1,7 @@
 # Next.js 15 Modern Boilerplate
 
-A production-ready Next.js 15 boilerplate with TypeScript, Tailwind CSS, and modern development tools. Built with best practices and performance in mind.
+A production-ready Next.js 15 boilerplate with TypeScript, Tailwind CSS, and
+modern development tools. Built with best practices and performance in mind.
 
 ![Next.js](https://img.shields.io/badge/Next.js-15-black)
 ![TypeScript](https://img.shields.io/badge/TypeScript-5.3-blue)
@@ -54,12 +55,14 @@ A production-ready Next.js 15 boilerplate with TypeScript, Tailwind CSS, and mod
 ### Setup Instructions
 
 1. Clone the repository:
+
 ```bash
 git clone https://github.com/yourusername/nextjs15-boilerplate.git
 cd nextjs15-boilerplate
 ```
 
 2. Install dependencies:
+
 ```bash
 npm install
 # or
@@ -69,11 +72,13 @@ pnpm install
 ```
 
 3. Copy the example environment file:
+
 ```bash
 cp .env.example .env.local
 ```
 
 4. Start the development server:
+
 ```bash
 npm run dev
 # or
@@ -135,7 +140,7 @@ Add new components in the `components` directory:
 // components/ui/Button.tsx
 export const Button = ({ children, ...props }) => {
   return (
-    <button className="px-4 py-2 bg-primary" {...props}>
+    <button className="bg-primary px-4 py-2" {...props}>
       {children}
     </button>
   );
@@ -151,11 +156,13 @@ export const Button = ({ children, ...props }) => {
 
 ## 🤝 Contributing
 
-Contributions are welcome! Please read our [Contributing Guide](CONTRIBUTING.md) for details on our code of conduct and the process for submitting pull requests.
+Contributions are welcome! Please read our [Contributing Guide](CONTRIBUTING.md)
+for details on our code of conduct and the process for submitting pull requests.
 
 ## 📄 License
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
+for details.
 
 ## 🙏 Acknowledgments
 
